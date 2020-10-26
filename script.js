@@ -3,6 +3,8 @@
 $(document).ready(function(){
     let table = $("table");
    
+
+    
     let detailsList = [];
 
     $.ajax({url: "https://jsonplaceholder.typicode.com/posts",success : function(details){
